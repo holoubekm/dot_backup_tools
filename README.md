@@ -16,7 +16,7 @@ git clone https://github.com/holoubekm/dot_backup_tools
 cd dot_backup_tools
 cp ./example/backup.list .
 ```
-Now please modify the backup.list and specify files to be backuped
+Now please modify the backup.list and specify files to be backed-up
 Lines with the leading hash "#" are considered to be comments
 You can specify files as well as whole directories
 
