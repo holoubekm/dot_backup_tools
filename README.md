@@ -4,7 +4,7 @@ It makes setting-up a new system from the scratch more bearable.
 
 ### Features
 * Scripts maintain one global `git` repository keeping all **.dot** files versioned and kept together.
-* Build on the top of `git`, `bash` and `makefile`. Makefile is not necesary - works just as a driver - you may avoid using it completely.
+* Build on the top of `git`, `bash` and `GNU make`. Make system is not necesary - works just as a driver - you may avoid using it completely.
 * Files are stored using absolute paths to avoid collisions.
 * Backups from the same hostname are kept on the branch named as the hostname.
 * List of explicitly and implicitly installed packages are saved as well if using the `pacman` or `apt-get` package manager.
