@@ -21,7 +21,7 @@ if [[ ! -e "$OUTPUT_DIR" || ! -d "$OUTPUT_DIR" ]]; then
 	mkdir -p "$OUTPUT_DIR"
 fi
 
-# As a bonus backup installed packages
+# As a bonus backup list of installed packages
 if [[ -x "$(command -v yaourt)" ]]; then
 	yaourt -Qe > "${OUTPUT_DIR}/installed_as_explicit.txt"
 	yaourt -Qd > "${OUTPUT_DIR}/installed_as_dependencies.txt"
@@ -29,6 +29,12 @@ fi
 
 if [[ -x "$(command -v apt)" ]]; then
 	apt list --installed > "${OUTPUT_DIR}/installed_packages.txt"
+fi
+
+if [[ ! -r "${FILE_LIST}" ]]; then
+	>&2 echo "FATAL! The '${FILE_LIST}' file doesn't exist!"
+	>&2 echo "Please use the ./examples/backup.list example"
+	exit 1
 fi
 
 # Loop through the list of files and directories to be backuped

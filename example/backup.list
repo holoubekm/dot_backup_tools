@@ -1,0 +1,53 @@
+# These lines are just examples
+# If you want to be sure the line gets interpreted as a directory, add slash at the end /
+# Uncommend any of these to backup them
+#
+# /home/holoubekm/.config/smplayer
+# /home/holoubekm/.nvim/bundle
+# /home/holoubekm/.nvim/nvimrc
+# /home/holoubekm/.themes
+# /usr/share/themes/Numix-My
+# /etc/default/grub
+# /etc/hostname
+# /etc/hosts
+# /etc/lightdm
+# /etc/mkinitcpio.d
+# /etc/rc.local
+# /etc/udev/rules.d
+# WARNING: vnc may contain sensitive info
+# /etc/vnc
+# /etc/X11/xorg.conf.d/50-synaptics.conf
+# WARNING: .bashprofile may contain sensitive info
+# /home/holoubekm/.bash_profile
+# WARNING: .bashrc may contain sensitive info
+# /home/holoubekm/.bashrc
+# /home/holoubekm/.config/bleachbit/bleachbit.ini
+# /home/holoubekm/.config/fontconfig
+# /home/holoubekm/.config/gtk-2.0
+# /home/holoubekm/.config/gtk-3.0
+# /home/holoubekm/.config/i3
+# /home/holoubekm/.config/mate
+# /home/holoubekm/.config/mimeapps.list
+# /home/holoubekm/.config/redshift.conf
+# /home/holoubekm/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+# /home/holoubekm/.config/Thunar
+# /home/holoubekm/.config/user-dirs.dirs
+# /home/holoubekm/.config/user-dirs.locale
+# /home/holoubekm/.config/volwheel
+# /home/holoubekm/.fonts
+# WARNING: .gitconfig may contain sensitive info
+# /home/holoubekm/.gitconfig
+# /home/holoubekm/.gtkrc-2.0
+# WARNING: .ssh may contain sensitive info
+# /home/holoubekm/.ssh
+# WARNING: .vnc may contain sensitive info
+# /home/holoubekm/.vnc
+# WARNING: .Xresources may contain sensitive info
+# /home/holoubekm/.Xresources
+# /home/holoubekm/.zdirs
+# /home/holoubekm/.zsh_favlist
+# WARNING: .zshrc may contain sensitive info
+# /home/holoubekm/.zshrc
+# /usr/share/wicd
+# /usr/share/X11/xorg.conf.d
+# /usr/share/X11/xorg.conf.d/10-keyboard.conf
