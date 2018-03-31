@@ -90,7 +90,7 @@ COMMIT_MSG="${HOSTNAME} $(date '+backup_%Y-%m-%d_%H-%M')"
 
 ### Notice
 Please keep in mind that this package is ment mostly as a **manager for lightweight** readable **files**. 
-While it's certainly possible to backup binary files it's discouraged to do so mainly due to bad performance.
+While it's certainly possible to backup binary filesm it's discouraged to do so - mainly due to bad performance.
 
 Please **consider carefully** which files or folder you really want to backup. Incautious one can easily share `ssh keys`, `credentials`, `api keys` and other private stuff. 
 
