@@ -1,6 +1,6 @@
 # These lines are just examples
 # If you want to be sure the line gets interpreted as a directory, add slash at the end /
-# Uncommend any of these to backup them
+# Uncomment any of these to backup them
 #
 # /home/holoubekm/.config/smplayer
 # /home/holoubekm/.nvim/bundle
