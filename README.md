@@ -1,4 +1,4 @@
-# .dot files backup scripts
+# .dot files backup tools
 This directory contains backup system made to easify the **.dot files** management. 
 It makes setting-up a new system from the scratch more bearable.
 
