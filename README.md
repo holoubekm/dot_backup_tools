@@ -38,12 +38,13 @@ If everything goes well the files will be automatically added, commited and push
 
 ### How to load data from the backup
 ```bash
-BACKUP_REPO = ... # Name of the backup git repo. Ex. dot_files_backup
-ABS_PATH = ... # Absolute path of the requested file. Ex. /home/user/.bashrc
 cd ./backup
 git checkout "${HOSTNAME}" # Checkout the branch of the given hostname 
 cd ./${BACKUP_REPO}/${USER}/ABS_PATH
 ```
+Where
+* `BACKUP_REPO` - Name of the backup git repo. Ex. `dot_files_backup`
+* `ABS_PATH` - Absolute path of the requested file. Ex. `/home/user/.bashrc`
 
 ### Makefile commands overview
 `Makefile` commands are 1 to 1 bound with files in the `./scripts` folder.
