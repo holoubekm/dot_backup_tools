@@ -36,7 +36,7 @@ git://github.com/holoubekm/dot_backup
 
 If everything goes well the files will be automatically added, commited and pushed to the origin
 
-### How to get 
+### How to load data from the backup
 ```bash
 BACKUP_REPO = ... # Name of the backup git repo. Ex. dot_files_backup
 ABS_PATH = ... # Absolute path of the requested file. Ex. /home/user/.bashrc
