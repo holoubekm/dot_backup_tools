@@ -15,23 +15,26 @@ Feel free to customize scripts. Feedback is more than welcomed.
 git clone https://github.com/holoubekm/dot_backup_tools
 cd dot_backup_tools
 cp ./example/backup.list .
-# Now please modify the backup.list and specify files to be backuped
-# Lines with the leading hash "#" are considered to be comments
-# You can specify files as well as whole directories
+```
+Now please modify the backup.list and specify files to be backuped
+Lines with the leading hash "#" are considered to be comments
+You can specify files as well as whole directories
 
+```bash
 make
 # The backup repo doesn't exist yet
 # Please enter URL or path of the git repository you would like to store backup to: 
 # >
-
-# Now let's create a custom git repository with write permissions and copy-paste it's URL or path
-# Example: git://github.com/holoubekm/dot_backup
-
-git://github.com/holoubekm/dot_backup
-
-# If everything goes well the files will be automatically added, commited and pushed to the origin
 ```
 
+Now let's create a custom git repository with write permissions and copy-paste it's URL or path
+Example: `git://github.com/holoubekm/dot_backup`
+
+```bash
+git://github.com/holoubekm/dot_backup
+```
+
+If everything goes well the files will be automatically added, commited and pushed to the origin
 
 ### How to get 
 ```bash
