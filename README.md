@@ -52,7 +52,7 @@ Where
 ```bash
 make init -> ./scripts/init.sh
 ```
-Add the backup submodule for the first time. The module get afterwards initialized and updated as well
+Add the backup submodule for the first time. The module gets afterwards initialized and updated as well
 
 ```bash
 make checkout -> ./scripts/checkout.sh
