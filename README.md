@@ -1,20 +1,16 @@
-# .dot files backup script
+# .dot files backup scripts
 This directory contains backup system made to easify the **.dot files** management. 
 It makes setting-up a new system from the scratch more bearable.
 
-#### Features
-Scripts maintain one global `git` repository keeping all **.dot** files versioned and kept together.
-
-Build on the top of `git`, `bash` and `makefile`. Makefile is not necesary - works just as a driver - you may avoid using it completely.
-
-Files are stored using absolute paths to avoid collisions.
-
-Backups from the same hostname are kept on the branch named as the hostname.
-
-List of explicitly and implicitly installed packages are saved as well if using the `pacman` or `apt-get` package manager.
-
+### Features
+* Scripts maintain one global `git` repository keeping all **.dot** files versioned and kept together.
+* Build on the top of `git`, `bash` and `makefile`. Makefile is not necesary - works just as a driver - you may avoid using it completely.
+* Files are stored using absolute paths to avoid collisions.
+* Backups from the same hostname are kept on the branch named as the hostname.
+* List of explicitly and implicitly installed packages are saved as well if using the `pacman` or `apt-get` package manager.
 Feel free to customize scripts. Feedback is more than welcomed.
-#### The first run
+
+### The first run
 ```bash
 git clone https://github.com/holoubekm/dot_backup_tools
 cd dot_backup_tools
@@ -37,7 +33,7 @@ git://github.com/holoubekm/dot_backup
 ```
 
 
-#### How to get 
+### How to get 
 ```bash
 BACKUP_REPO = ... # Name of the backup git repo. Ex. dot_files_backup
 ABS_PATH = ... # Absolute path of the requested file. Ex. /home/user/.bashrc
@@ -46,7 +42,7 @@ git checkout "${HOSTNAME}" # Checkout the branch of the given hostname
 cd ./${BACKUP_REPO}/${USER}/ABS_PATH
 ```
 
-#### Makefile commands overview
+### Makefile commands overview
 `Makefile` commands are 1 to 1 bound with files in the `./scripts` folder.
 
 ```bash
@@ -88,7 +84,7 @@ The commit message can be changed in the file `commit.sh`:
 COMMIT_MSG="${HOSTNAME} $(date '+backup_%Y-%m-%d_%H-%M')"
 ```
 
-#### Notice
+### Notice
 Please keep in mind that this package is ment mostly as a **manager for lightweight** readable **files**. 
 While it's certainly possible to backup binary files it's discouraged to do so mainly due to bad performance.
 
